@@ -206,6 +206,31 @@ class LoginViewController: UIViewController {
         }
         
         // log in functionality
+        
+        var username: String?
+        var email: String?
+        
+        if usernameEmail.contains("@"), usernameEmail.contains(".") {
+            // email
+            email = usernameEmail
+        } else {
+            // username
+            username = usernameEmail
+        }
+        
+        AuthManager.shared.loginUser(username: username, email: email, password: password) { success in
+            DispatchQueue.main.async { // because closure - in background thread
+                if success {
+                    // user logged in
+                    self.dismiss(animated: true, completion: nil)
+                } else {
+                    // error occured
+                    let alert = UIAlertController(title: "Log In Error", message: "We were unable to log you in.", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
+                    self.present(alert,animated: true)
+                }
+            }
+        }
     }
     @objc private func didTapTermsButton() {
         guard let url = URL(string: "https://help.instagram.com/478745558852511/?helpref=hc_fnav") else {
@@ -223,7 +248,8 @@ class LoginViewController: UIViewController {
     }
     @objc private func didTapCreateAccountButton() {
         let vc = RegistrationViewController()
-        present(vc,animated: true)
+        vc.title = "Create Account"
+        present(UINavigationController(rootViewController: vc),animated: true)
     }
 
 }
