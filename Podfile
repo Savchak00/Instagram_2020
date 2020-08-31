@@ -5,6 +5,15 @@ target 'Instagram' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Instagram
+pod 'Appirater' # allow us to show a app rating prompt
+
+# Firebase
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+pod 'Firebase/Storage'
 
 end
