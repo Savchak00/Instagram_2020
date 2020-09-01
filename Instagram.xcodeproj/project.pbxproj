@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083BDEA624FE6DFE009A0941 /* IFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BDEA524FE6DFE009A0941 /* IFeedPostTableViewCell.swift */; };
+		083BDEA924FE7342009A0941 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BDEA824FE7342009A0941 /* IGFeedPostHeaderTableViewCell.swift */; };
+		083BDEAB24FE735A009A0941 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BDEAA24FE735A009A0941 /* IGFeedPostActionsTableViewCell.swift */; };
+		083BDEAE24FE7388009A0941 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BDEAD24FE7388009A0941 /* IGFeedPostGeneralTableViewCell.swift */; };
 		08CA8D8724FD34910048C8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA8D8624FD34910048C8B2 /* AppDelegate.swift */; };
 		08CA8D8924FD34910048C8B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA8D8824FD34910048C8B2 /* SceneDelegate.swift */; };
 		08CA8D8B24FD34910048C8B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA8D8A24FD34910048C8B2 /* HomeViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083BDEA524FE6DFE009A0941 /* IFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		083BDEA824FE7342009A0941 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		083BDEAA24FE735A009A0941 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		083BDEAD24FE7388009A0941 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		08CA8D8324FD34910048C8B2 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA8D8624FD34910048C8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA8D8824FD34910048C8B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +88,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083BDEA424FE6DCB009A0941 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				083BDEA724FE7321009A0941 /* Home Feed */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		083BDEA724FE7321009A0941 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				083BDEA524FE6DFE009A0941 /* IFeedPostTableViewCell.swift */,
+				083BDEA824FE7342009A0941 /* IGFeedPostHeaderTableViewCell.swift */,
+				083BDEAA24FE735A009A0941 /* IGFeedPostActionsTableViewCell.swift */,
+				083BDEAD24FE7388009A0941 /* IGFeedPostGeneralTableViewCell.swift */,
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
 		08CA8D7A24FD34910048C8B2 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 		08CA8D9B24FD34EC0048C8B2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				083BDEA424FE6DCB009A0941 /* Cells */,
 				08CA8D8F24FD34920048C8B2 /* Assets.xcassets */,
 				08CA8D9E24FD35420048C8B2 /* Storyboards */,
 			);
@@ -342,6 +370,7 @@
 				08CA8DA224FD36100048C8B2 /* CameraViewController.swift in Sources */,
 				08CA8D8B24FD34910048C8B2 /* HomeViewController.swift in Sources */,
 				08CA8DAE24FD36BA0048C8B2 /* RegistrationViewController.swift in Sources */,
+				083BDEA924FE7342009A0941 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				08CA8DBD24FD37F10048C8B2 /* PostEditorViewController.swift in Sources */,
 				08CA8DC824FD44430048C8B2 /* StorageManager.swift in Sources */,
 				08CA8DB024FD36F20048C8B2 /* PostViewController.swift in Sources */,
@@ -349,12 +378,15 @@
 				08CA8DBB24FD37B30048C8B2 /* SearchResultViewController.swift in Sources */,
 				08CA8DC424FD431B0048C8B2 /* DataBaseManager.swift in Sources */,
 				08CA8DAB24FD36A40048C8B2 /* LoginViewController.swift in Sources */,
+				083BDEA624FE6DFE009A0941 /* IFeedPostTableViewCell.swift in Sources */,
 				08CA8DCA24FD4D670048C8B2 /* Extensions.swift in Sources */,
+				083BDEAE24FE7388009A0941 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				08CA8DB924FD37A50048C8B2 /* SearchViewController.swift in Sources */,
 				08CA8DA624FD362E0048C8B2 /* ProfileViewController.swift in Sources */,
 				08CA8DC624FD43F30048C8B2 /* AuthManager.swift in Sources */,
 				08CA8D8724FD34910048C8B2 /* AppDelegate.swift in Sources */,
 				08CA8D8924FD34910048C8B2 /* SceneDelegate.swift in Sources */,
+				083BDEAB24FE735A009A0941 /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				08CA8DB724FD37750048C8B2 /* ListViewController.swift in Sources */,
 				08CA8DB524FD37450048C8B2 /* SettingsViewController.swift in Sources */,
 			);
