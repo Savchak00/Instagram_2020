@@ -6,6 +6,7 @@ target 'Instagram' do
   use_frameworks!
 
 pod 'Appirater' # allow us to show a app rating prompt
+pod 'SDWebImage'
 
 # Firebase
 
