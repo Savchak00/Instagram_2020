@@ -15,6 +15,7 @@
 		0879011C2504F91700A0FD5A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879011B2504F91700A0FD5A /* PhotoCollectionViewCell.swift */; };
 		0879011E2504F96000A0FD5A /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879011D2504F96000A0FD5A /* ProfileInfoHeaderCollectionReusableView.swift */; };
 		087901202504F99400A0FD5A /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0879011F2504F99400A0FD5A /* ProfileTabsCollectionReusableView.swift */; };
+		089BE2C9252E03F2004D7801 /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089BE2C8252E03F2004D7801 /* UserFollowTableViewCell.swift */; };
 		08CA8D8724FD34910048C8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA8D8624FD34910048C8B2 /* AppDelegate.swift */; };
 		08CA8D8924FD34910048C8B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA8D8824FD34910048C8B2 /* SceneDelegate.swift */; };
 		08CA8D8B24FD34910048C8B2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CA8D8A24FD34910048C8B2 /* HomeViewController.swift */; };
@@ -53,6 +54,7 @@
 		0879011B2504F91700A0FD5A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		0879011D2504F96000A0FD5A /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		0879011F2504F99400A0FD5A /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+		089BE2C8252E03F2004D7801 /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 		08CA8D8324FD34910048C8B2 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CA8D8624FD34910048C8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08CA8D8824FD34910048C8B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				083BDEA724FE7321009A0941 /* Home Feed */,
 				087901182504F1F300A0FD5A /* FormTableViewCell.swift */,
 				0879011B2504F91700A0FD5A /* PhotoCollectionViewCell.swift */,
+				089BE2C8252E03F2004D7801 /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				083BDEA924FE7342009A0941 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				08CA8DBD24FD37F10048C8B2 /* PostEditorViewController.swift in Sources */,
 				08CA8DC824FD44430048C8B2 /* StorageManager.swift in Sources */,
+				089BE2C9252E03F2004D7801 /* UserFollowTableViewCell.swift in Sources */,
 				08D9216425053B3B00BB3E6D /* Models.swift in Sources */,
 				087901192504F1F300A0FD5A /* FormTableViewCell.swift in Sources */,
 				08CA8DB024FD36F20048C8B2 /* PostViewController.swift in Sources */,
